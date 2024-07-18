@@ -5,6 +5,14 @@ The video source options are local video files, camera devices, or RTSP urls (pr
 
 > NOTE: the OpenCV installation should have GStreamer support to use the GStreamer capabilties. 
 
+## Install
+This module is currently available at the [Test PyPI](https://test.pypi.org/project/video-apps/0.0.1/) index, use the following command to install it
+``` shell
+pip install -i https://test.pypi.org/simple/ video-apps
+```
+
+Further tested versions will be uploaded to the main index (not the test version).
+
 ## Usage
 The base application is a simple video consumer. This is an example on how to load a local video file and display its content on screen.
 
