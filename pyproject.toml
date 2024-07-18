@@ -4,7 +4,7 @@ version = "0.0.1"
 authors = [
   { name="J. D. Camacho", email="camacho.castillo.jdavid@gmail.com" }
 ]
-description = "Simple video consumer"
+description = "Simple video consumer as base for video processing applications"
 readme = "README.md"
 requires-python = ">=3.6"
 
@@ -14,7 +14,7 @@ classifiers = [
 ]
 
 [project.urls]
-
+Homepage = "https://github.com/Drivit/video-apps"
 
 [build-system]
 requires = ["hatchling"]
