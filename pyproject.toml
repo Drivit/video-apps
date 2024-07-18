@@ -1,0 +1,21 @@
+[project]
+name = "video-apps"
+version = "0.0.1"
+authors = [
+  { name="J. D. Camacho", email="camacho.castillo.jdavid@gmail.com" }
+]
+description = "Simple video consumer"
+readme = "README.md"
+requires-python = ">=3.6"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

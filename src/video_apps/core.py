@@ -1,4 +1,3 @@
-# Installed modules
 import cv2
 from threading import Thread
 
@@ -14,7 +13,7 @@ class VideoStream:
 	def __init__(
 			self, 
 			src = 0, 
-			apiReference = cv2.CAP_ANY, 
+			apiReference = cv2.CAP_V4L2, 
 			name="VideoStream"):
 		# initialize the video camera stream and read the first frame
 		# from the stream

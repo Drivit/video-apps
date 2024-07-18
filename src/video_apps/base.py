@@ -72,7 +72,7 @@ class VideoConsumer:
         self.program_killer = GracefulKiller()
 
         # Check if a video source is specified, else close
-        if not local_source and not rtsp_source and not camera_source:
+        if not local_source and not rtsp_source and (camera_source is None):
             self.logger.error('No video source specified. Closing.')
             sys.exit(1)
 
