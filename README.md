@@ -33,9 +33,9 @@ $ python3 -c "import cv2; print(cv2.getBuildInformation())" | grep GStreamer
 ```
 
 ## Install
-This module is currently available at the [Test PyPI](https://test.pypi.org/project/video-apps/0.0.1/) index, use the following command to install it
+This module is currently available at the [Test PyPI](https://test.pypi.org/project/video-apps/) index, use the following command to install it
 ``` shell
-pip install -i https://test.pypi.org/simple/ video-apps
+$ pip install -i https://test.pypi.org/simple/ video-apps
 ```
 
 Further tested versions will be uploaded to the main index (not the test version).
