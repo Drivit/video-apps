@@ -124,15 +124,16 @@ class VideoConsumer:
         # Create retransmission if needed
         self.retransmission_channel = None
         if (location):
+            stream_location = 'rtsp://localhost:8554/' + location
             self.retransmission_channel = generate_rtsp_writer(
-                location, 
+                stream_location, 
                 self.fps, 
                 self.width, 
                 self.height
             )
 
             self.logger.info(
-                f'Retransmiting video at: rtsp://localhost:8554/{location}'
+                f'Retransmiting video at: {stream_location}'
             )
 
         # Set var to display or not the processed video
