@@ -28,11 +28,11 @@ class VideoConsumer:
 
     def __init__(
             self,
-            camera_source: int | None = None,
-            rtsp_source: str | None = None,
-            local_source: str | None = None,
-            location: str | None = None,
-            output_path: str | None = None,
+            camera_source: 'int | None' = None,
+            rtsp_source: 'str | None' = None,
+            local_source: 'str | None' = None,
+            location: 'str | None' = None,
+            output_path: 'str | None' = None,
             display: bool = False,
             logging_level: str = 'INFO',
             scale: float = 1.0,
